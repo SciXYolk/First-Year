@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Calculator
+comment0.text=\r\n\ Calculate\ calculations.\r\n\r\n\ @author\ Berk\ Cihat\ Yildizcan\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Calculator()
+comment2.params=
+comment2.target=void\ createOutput()
+comment3.params=
+comment3.target=void\ createFunctionButtons()
+comment4.params=
+comment4.target=void\ createNumButtons()
+comment5.params=
+comment5.target=void\ createPanel()
+comment6.params=
+comment6.target=void\ addToFrame()
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

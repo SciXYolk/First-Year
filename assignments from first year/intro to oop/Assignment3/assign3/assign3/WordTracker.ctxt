@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WordTracker
+comment0.text=\r\n\ Keep\ track\ of\ word\ counts\ and\ word\ pairs.\r\n\ \r\n\ DO\ NOT\ CHANGE\ ANY\ OF\ THE\ METHOD\ NAMES,\ PARAMETERS\r\n\ OR\ RETURN\ TYPES\ IN\ THIS\ FILE.\ IF\ YOU\ DO,\ IT\ WILL\r\n\ NOT\ BE\ POSSIBLE\ TO\ MARK\ YOUR\ WORK.\r\n\r\n\ @author\ Berk\ Cihat\ Yildizcan\r\n\ @version\ 19/01/2023\r\n
+comment1.params=
+comment1.target=WordTracker()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WordTracker\r\n
+comment2.params=word
+comment2.target=void\ addWord(java.lang.String)
+comment2.text=\r\n\ Add\ a\ word\ to\ the\ analyser.\r\n\ @param\ word\ the\ word\ to\ be\ added.\r\n
+comment3.params=word
+comment3.target=int\ getCount(java.lang.String)
+comment3.text=\r\n\ Get\ the\ number\ of\ times\ the\ given\ word\ has\ been\ seen.\r\n\ @param\ word\ The\ word\ to\ be\ looked\ up.\r\n\ @return\ The\ number\ of\ times\ the\ word\ has\ been\ seen.\r\n
+comment4.params=firstWord\ secondWord
+comment4.target=boolean\ wordPair(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Return\ true\ if\ firstWord\ is\ immediately\ followed\r\n\ by\ secondWord\ in\ the\ original\ text;\ false\ otherwise.\r\n\ In\ other\ words,\ return\ true\ if,\ after\ a\ call\ to\ addWord(firstWord),\r\n\ the\ next\ call\ to\ addWord\ was\ addWord(secondWord).\r\n\ \r\n\ @param\ firstWord\ A\ possible\ word\ added\ immediately\ before\ secondWord.\r\n\ @param\ secondWord\ A\ possible\ word\ added\ immediately\ after\ firstWord.\r\n
+comment5.params=str
+comment5.target=int\ getSubstringCount(java.lang.String)
+comment5.text=\r\n\ Get\ the\ number\ of\ times\ the\ given\ string\ occurs\r\n\ within\ one\ of\ the\ words\ in\ the\ analyser.\r\n\ Note\:\ the\ match\ must\ be\ *case\ insensitive*.\r\n\ @param\ str\ The\ substring\ to\ be\ looked\ up.\r\n\ @return\ The\ number\ of\ times\ the\ substring\ occurs.\r\n
+numComments=6

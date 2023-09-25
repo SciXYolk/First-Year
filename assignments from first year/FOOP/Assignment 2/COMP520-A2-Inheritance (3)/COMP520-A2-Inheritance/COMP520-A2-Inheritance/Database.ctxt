@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Database
+comment0.text=\r\n\ A\ database\ for\ a\ collection\ of\ publications,\r\n\ e.g.\ books,\ journals,\ etc.\r\n\r\n\ @author\ Berk\ Cihat\ Yildizcan\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Database()
+comment1.text=\r\n\ Create\ a\ new\ database\r\n
+comment2.params=publication
+comment2.target=void\ addPublication(Publication)
+comment2.text=\r\n\ Adds\ publication\ to\ list\ of\ publciations\r\n\ adds\ only\ if\ it\ doesnt\ already\ exist\r\n\ \r\n
+comment3.params=
+comment3.target=int\ getTotal()
+comment3.text=\r\n\ Get\ the\ total\ number\ of\ publications\r\n\r\n\ @return\ The\ total\ number\ of\ publications\r\n
+comment4.params=author
+comment4.target=java.util.ArrayList\ getListOfBooks(java.lang.String)
+comment4.text=\r\n\ Gets\ list\ of\ books\ by\ said\ author\r\n\ \r\n\ @return\ ArrayList\ of\ Book\ objects\ by\ said\ author\r\n
+comment5.params=month\ year
+comment5.target=int\ numPublishedJournals(int,\ int)
+comment5.text=\r\n\ Gets\ number\ of\ published\ journals\r\n\ \r\n\ @return\ the\ amount\ of\ published\ journals\r\n
+comment6.params=
+comment6.target=void\ printList()
+comment6.text=\r\n\ Print\ the\ details\ of\ all\ publications\ in\ alphabetical\ order\r\n
+comment7.params=p1\ p2
+comment7.target=int\ compare(Publication,\ Publication)
+numComments=8

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=WordTrackerMain
+comment0.text=\r\n\ A\ simple\ 'driver'\ for\ the\ WordTracker\ class.\r\n\ \r\n\ Split\ a\ 'document'\ into\ individual\ words\ and\ pass\ them\r\n\ to\ a\ WordTracker\ to\ be\ analysed.\r\n\ \r\n\ In\ this\ example,\ the\ 'document'\ is\ a\ String\ literal\ in\r\n\ the\ main\ method,\ but\ this\ could\ easily\ be\ changed\ to\ an\r\n\ external\ file,\ if\ desired\ (e.g.,\ use\ a\ Scanner).\r\n\ \r\n\ Print\ a\ few\ sample\ outputs.\r\n\r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2022.12.14\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=originalText
+comment2.target=void\ simpleDemo(java.lang.String)
+comment2.text=\r\n\ A\ simple\ demonstration\ of\ each\ method.\r\n\ @param\ The\ original\ text\ to\ be\ tracked.\r\n
+numComments=3
